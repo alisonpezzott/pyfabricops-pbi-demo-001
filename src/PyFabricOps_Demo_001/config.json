@@ -1,0 +1,64 @@
+{
+    "dev": {
+        "PyFabricOps_Demo_001": {
+            "workspace_config": {
+                "workspace_id": "20b623ec-bc2d-450f-a38a-94952cbb81bb",
+                "workspace_name": "PyFabricOps_Demo_001-DEV",
+                "workspace_description": "A Power BI Project with PyFabricOps",
+                "capacity_id": "",
+                "capacity_region": "",
+                "workspace_roles": [
+                    {
+                        "user_uuid": "cbe83b10-3b7c-4479-8168-e5281fabf7ea",
+                        "user_type": "Group",
+                        "role": "Admin",
+                        "display_name": "AppFabricUsers",
+                        "group_type": "SecurityGroup",
+                        "email": null
+                    },
+                    {
+                        "user_uuid": "9322eb4a-4132-4bd1-8df1-5cd3d1d2400b",
+                        "user_type": "User",
+                        "role": "Admin",
+                        "display_name": "Alison Pezzott",
+                        "user_principal_name": "alison.pezzott@overdax.com"
+                    },
+                    {
+                        "user_uuid": "b025341a-965a-4c35-b12e-2af63e5eb58f",
+                        "user_type": "User",
+                        "role": "Admin",
+                        "display_name": "Dev",
+                        "user_principal_name": "dev@overdax.com"
+                    },
+                    {
+                        "user_uuid": "bde43861-55e1-4144-b572-be115312967f",
+                        "user_type": "ServicePrincipal",
+                        "role": "Admin",
+                        "display_name": "AppFabric",
+                        "app_id": "7f3c52e1-46fa-4d5d-880b-c1e721a1f729"
+                    }
+                ]
+            },
+            "dataflows_gen1": {
+                "Date": {
+                    "id": "1a5c466a-2bce-488c-b824-56d54feacc7a",
+                    "description": ""
+                }
+            },
+            "folders": {
+                "Main": "47a0dcc6-6a46-49b3-8e19-fcf174f8eeb6",
+                "Secondary": "e2051eb9-01d2-44d1-8dc8-4a96185fb3db"
+            },
+            "semantic_models": {
+                "MainAnalysis": {
+                    "parameters": {
+                        "WorkspaceName": "PyFabricOps_Demo_001-DEV"
+                    },
+                    "id": "80481c8d-2b22-41a8-83f9-f6c138e304f5",
+                    "description": "",
+                    "folder_id": "47a0dcc6-6a46-49b3-8e19-fcf174f8eeb6"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+expression WorkspaceName = "#{WorkspaceName}#" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=false]
+	lineageTag: 9d6565b0-fd00-49b2-a34c-41ac868d6745
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+

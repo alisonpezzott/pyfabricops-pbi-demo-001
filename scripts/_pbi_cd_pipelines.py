@@ -335,13 +335,16 @@ def pbi_sync_from_workspace(
 
 
     # Export all folders
-    pf.export_folders(
-        workspace=workspace_id, 
-        project_path=project_path,
-        workspace_path=workspace_alias,
-        branch=branch,
-        workspace_suffix=workspace_suffix,
-    )
+    try:
+        pf.export_folders(
+            workspace=workspace_id, 
+            project_path=project_path,
+            workspace_path=workspace_alias,
+            branch=branch,
+            workspace_suffix=workspace_suffix,
+        )
+    except:
+        pass
 
 
     # Export dataflow config
