@@ -10,5 +10,5 @@ pbi_init_from_local(
     project="PyFabricOps_Demo_001",
     workspace_alias="PyFabricOps_Demo_001",
     project_path="src/PyFabricOps_Demo_001",
-    dataflows_gen1=['Calendar.Dataflow'],
+    dataflows_gen1=['Date.Dataflow'],
 )
