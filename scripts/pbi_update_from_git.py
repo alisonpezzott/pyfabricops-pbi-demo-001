@@ -8,6 +8,6 @@ from scripts._pbi_cd_pipelines import pbi_update_from_git
 
 pbi_update_from_git(
     project='AdventureWorks',
-    workspace_alias='SalesPerformance',
+    workspace_alias='AdventureWorks',
     project_path='src',
 )

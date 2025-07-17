@@ -8,6 +8,6 @@ from scripts._pbi_cd_pipelines import pbi_sync_from_workspace
 
 pbi_sync_from_workspace(
     project='AdventureWorks',
-    workspace_alias='SalesPerformance',
+    workspace_alias='AdventureWorks',
     project_path='src',
 )
